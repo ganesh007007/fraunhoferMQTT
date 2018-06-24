@@ -27,9 +27,13 @@
 **************************************/
 #define XBEE_BAUDRATE 115200
 // change APN to your carrier's setting
-#define APN "connect"
+#define APN "internet.t-mobile"
 // change YOUR_SERVER_KEY to your server key
 #define SERVER_URL "hub.freematics.com"
+#define SERVER_IP "137.251.108.210"
+#define MQTT_TOPIC "OBD2"
+#define MQTT_PORT "443"
+
 #define SERVER_PORT 80
 #define SERVER_KEY "TEST_SERVER_KEY"
 
